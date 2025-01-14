@@ -81,4 +81,4 @@ anais_pwd = extract_value_from_json(secret_file, "password")
 liste = make_ldap_call(anais_pwd)
 
 auth_token = "votre_token_d_authentification"
-process_liste(liste, auth_token)
+process_list(liste, auth_token)
