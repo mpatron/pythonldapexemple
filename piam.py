@@ -8,7 +8,7 @@ import ldap3
 def main():
     # Create an ArgumentParser object
     parser = argparse.ArgumentParser(
-        description="Configuration des applications DataFabrique"
+        description="Configuration des applications"
     )
 
     parser.add_argument(
